@@ -34,8 +34,29 @@ console.log (idade-idade2)
 */
 
 //Exercicio 4
+/*let numeroUm = Number(prompt ("Digite um numero par"))
+console.log(numeroUm % 2) // O resultado só vai da 0 por conta que numero par não tem resto
+let numeroDois = Number(prompt("Digite um numero impar"))
+console.log(numeroDois % 2) // O resultado deu 1 porque numero impar tem resto
+*/
 
 
+//Exercicio 5
+/*let nome =prompt ('Qual e seu nome?')
+let idadeUm = Number(prompt("Quantos anos você tem?"))
+console.log(idadeUm)
+const idadeMeses = 12 
+console.log("Minha idade em meses e ", idadeUm*idadeMeses)
+const idadeDias = 365
+console.log("Minha idade em dias e", idadeUm*idadeDias)
+const idadeHoras = 24
+console.log("Minha idade em horas e",idadeUm*idadeHoras*idadeDias)
+
+
+
+
+
+    //Exercicio 6
 /*let primeiroNumb = Number(prompt('Digite um numero'))
 let segundoNumb = Number(prompt('Digite outro numero'))
 console.log("O primeiro numero é maior que o segundo?" , primeiroNumb > segundoNumb)
@@ -43,6 +64,7 @@ console.log("O primeiro numero é igual ao segundo?" , primeiroNumb === segundoN
 console.log("O primeiro numero é divisível pelo segundo?" , (primeiroNumb % segundoNumb) === 0)
 console.log("O segundo numero é divisível pelo primeiro?" , (segundoNumb % primeiroNumb) === 0)*/
 
+//
 
 
 
