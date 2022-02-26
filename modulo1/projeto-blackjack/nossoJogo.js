@@ -12,7 +12,7 @@
  */
              //Projeto 21
 
-console.log ("Bem vindo(a) ao jogo 21")
+console.log ("Bem vindo(a) ao jogo  21")
 
 let jogo = confirm ("Quer iniciar uma nova rodada")
 
