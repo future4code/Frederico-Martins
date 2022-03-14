@@ -5,25 +5,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>portifolio.projeto</title>
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-    <header>
-        <div class="menu">
-                <div class="logo">
-                    <img src="img-logo/portfolio-logo-img.png" alt="">
-                </div>
-             <nav class="menu-itens">
-                 <a href=""><img src="img-logo/img-menu-itens/sobre-mim.png"></a>
-                 <a href=""><img src=""></a>
-                 <a href=""><img src=""></a>
-             </nav>
+    <!-- logo (fred lopes) home  -->
+    <aside class="menu">
+        <div class="logo">
+            <a href="index.html">Fred Lopes</a>
+            <nav class="menu-itens">
+                <li><a href="#sessaoTres">Sobre mim</a></li>
+                <li><a href="#sessaoDois">Habilidades</a></li>
+                <li><a href="#sessaoQuatro">Contato</a></li>
+                <li><a href="#contate-me"></a></li>
+            </nav>
         </div>
-    </header>
+    </aside>
+
+    <!-- texto botao contata-me e foto de perfil -->
+    <section class='sessaoprincipal' id="sessaoprincipal">
+        <div class="conteudo-principal"> 
+            <div class="texto-perfil">
+                <h2 class="texto-perfil-cor">
+                    Olá! <br>Sou o <span class="cor-menu"></span><br>
+                    o seu Desenvolvedor <br>Web Full Stack
+                </h2>
+                <nav>
+                <button  type="button"><a href="#sessaoQuatro"></a> Contate-me<img src="contate-me.png"></button>
+                </nav>
+            </div>
+            <div class="foto-profile">
+                <img src="images-redesocial/img-perfil/fotooooooooooooooooooooooooo.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- pagina de habilidades  -->
+    <section class='sessaoDois' id="sessaoDois">
+        <div class="skill">
+            <div class="texto-perfil">
+                <h2 class="texto-habilidade"> Habilidades</h2>
+            </div>
+            <div class="imagens-habilidades">
+                <div class="quadradoZero">
+                    <h2>
+
+                        Frontend
+
+                    </h2>
+                    <img src="images-redesocial/img-perfil/html.png">
+                    <img src="images-redesocial/img-perfil/css.png">
+                    <img src="images-redesocial/img-perfil/js.png">
+                    <img src="images-redesocial/img-perfil/react.png">
+                </div>
+                <div class="quadradoZero">
+                    <h2>
+                        Backend
+                    </h2>
+                    <img src="images-redesocial/img-perfil/node-js.png">
+                    <img src="images-redesocial/img-perfil/firebase.jpg">
+                    <img src="images-redesocial/img-perfil/typescript.jpg">
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
+
+    <!-- sobremim -->
+    <section class='sessaoTres' id="sessaoTres">
+        <div class="sobremim">
+            <div class="texto-sobremim">
+                <h2 class="texto-perfil-cor"> Olá! Sou o <span class="cor2">Frederico Lopes</span> , tenho 25 anos, brasiliense, sou um apaixonado por dança de salão. Atualmente faço parte do grupo  de estudante <spam class="cor">Desenvolvimento web full stack</spam> da empresa Labenu. Ainda não possuo formação academica porém comecarei em breve o curso de ads (Analise e Desenvolvimento de Sistemas) </h2>
+            </div>
+            <div class="imagens-sobre-mim">
+                <img src="images-redesocial/img-perfil/foto-de-perfil.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- contato formulario -->
+    <section class='sessaoQuatro' id="sessaoQuatro">
+        <div class="contato-boxe">
+            <h2>
+                Contato
+            </h2>
+
+            <form>
+                <br>
+                <li> <input type="text" class="input-campos" placeholder="Seu nome"></li>
+                <br>
+                <li> <input type="text" class="input-campos" placeholder="Seu email"></li>
+                <br>
+                <li><input type="text" class="input-campos" placeholder="Assunto"></li>
+                <br>
+                <li><textarea type="text" class="input-campos" placeholder="Sua mensagem">
+                </textarea>
+
+
+            </form>
+            <button>
+                Enviar
+            </button>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <section class="rodape">
+            <div class="rede-social">
+                <a href="https://www.instagram.com/fdlsmartins/" target="_blank"><img
+                        src="images-redesocial/instagram.png"></a>
+
+                <a href="https://www.linkedin.com/in/fdlsmartins/" target="_blank"><img
+                        src="images-redesocial/linkedin.png"></a>
+
+                <a href="https://api.whatsapp.com/send?phone=5561995403263&text=Oi%2C%20eu%20sou%20o%20Frederico%20Lopes%2C%20tudo%20bem%3F%20Seja%20bem%20vindo%20(a)%2C%20diga-me%20como%20posso%20te%20ajudar%3F%20"
+                    target="_blank"><img src="images-redesocial/whatsapp.png"></a>
+                <a href="https://github.com/Fredlsmartins" target="_blank"><img src="images-redesocial/github.png"></a>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>

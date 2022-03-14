@@ -1,18 +1,164 @@
 *{
     margin: 0;
     padding:0;
-    box-sizing: border-box;
-    background-color: rgb(255, 157, 157);
+}
+a{
+text-decoration: none;
 }
 .menu{
-    display: flex;
-    justify-content: space-between;
+background:white;
+/* ( #68a0fb, #dfc9ca)  ;             */
+top:0;
+left:0;
+right: 0;
+width: 100%;
+}
+.logo{
+    display:flex;
+    justify-content:space-between;
+    margin:0 auto;
     align-items: center;
 }
-.logo img{
-    width: 64px;
+.menu a {
+    position: relative;
+    padding: 20px ; 
+    font-family: fantasy;
+    color:rgb(16, 16, 20);
+    font-size:30px;
+}
+.menu-itens{
+list-style:none;
+display:flex;
+}
+.menu-itens li a {
+   position: relative;
+   padding: 20px ; 
+   font-family: fantasy;
+   color:blue;
+   font-size:30px;
+}
+.rede-social{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.rede-social img{
+    width: 70px;
+    height: 70px;
+}
+.conteudo-principal{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1200px;
+    margin:0 auto;
+}
+.sessaoprincipal{
+    background:linear-gradient(#5f9afa, #dfc9ca);
+    min-height: 100vh;
+    padding: 30px;
+}
+/* custumizando botao */
+button{
+    width: 140px;
+    border:0;
+    padding: 12px 10px;
+    outline:none;
+    color: #fff;
+    background:linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s
+}
+
+button img{
+    width: 30px;
+    display: none;
 
 }
-.menu-itens a img{
-width: 40px;
+button:hover img { 
+    display: bolck;
 }
+button:hover{
+    width: 160px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.sessaoDois{
+    background:linear-gradient(#FA8072, #dfc9ca)
+ 
+}
+.imagens-habilidades{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.texto-habilidade {
+
+text-align: center;
+}
+
+
+.imagens-habilidades img{
+    width: 70px;
+    height: 70px;
+    display:block;
+    margin:20px;
+}
+.sessaoTres{
+  background:linear-gradient(#5f9afa, #dfc9ca)
+}
+.sobremim{
+    display: flex;
+    justify-content: space-between;
+}
+.imagens-sobre-mim{
+height: 523px;
+}
+.texto-sobremim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.sessaoQuatro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#FA8072, #dfc9ca)
+       
+}
+li{
+list-style: none;
+
+}
+.contato-boxe{
+    border:8px double chocolate;
+    margin:10px;
+    padding: 40px;
+    background-color: rgb(17, 3, 3);
+    color: white;
+}
+.foto-profile img{
+width: 400px;
+border-radius: 50%;
+margin-right: 250px  ;
+margin-top: 78px;
+opacity: 10%;
+
+}
+.cor{
+    color: #FA8072;
+}
+.cor2{
+    color: rgb(171, 235, 23);
+}
+
+
+    
+    
+    
+    
+    
