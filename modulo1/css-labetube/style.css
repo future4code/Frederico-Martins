@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: 0;
+}
+header{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+    background-color: red;
+    padding: 20px;
+    height: 6vh;
+}
+.cardconteiner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);   
+    gap: 10px;
+    padding: 10px;
+}
+main{
+display:flex;
+align-items: center;
+justify-content: center;
+min-height: 80vh;
+}
+.card{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    height: 8vh;
+    background-color: black;
+    color:white;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.videos video{
+    height: 500px;
+    margin: 50px;
+
+}
+.videos{
+   text-align: center;
+
+}
