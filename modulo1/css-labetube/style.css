@@ -1,36 +1,64 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: 0;
+    box-sizing: border-box;
+    text-decoration-line: none;
+    /*Desktop*/
 }
 header{
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-    background-color: red;
-    padding: 20px;
-    height: 6vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(19, 18, 18); 
+    height: 10vh;       
+    width: 100vw; 
+    color:white;
+    padding: 0px 10px;
+
 }
+section{
+    width: 100%;
+    height: 100%;
+}
+
+
 .cardconteiner{
     display: grid;
+    width: 100%; 
     grid-template-columns: repeat(4, 1fr);   
     gap: 10px;
-    padding: 10px;
+    padding: 0px 10px;
+    /* margin: 0px 10px 0px 0px; */
+     
+    
+}
+.cardconteiner img {
+    border-radius: 20px;
+    width: 100%;
+    max-height: 200px;
+    max-width: 270px;
+
+     
 }
 main{
-display:flex;
-align-items: center;
-justify-content: center;
-min-height: 80vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    width: 100vw; 
+    background-color:rgb(46, 38, 38)
 }
 .card{
     display:flex;
     align-items: center;
     flex-direction: column;
+   color:white
+
 }
 footer{
-    height: 8vh;
-    background-color: black;
+    height: 10vh;
+    width: 100vw; 
+    background-color:red;
     color:white;
     display:flex ;
     align-items: center;
@@ -39,9 +67,21 @@ footer{
 .videos video{
     height: 500px;
     margin: 50px;
+  
 
 }
 .videos{
-   text-align: center;
+    text-align: center;
+    color: white;
+}
+@media screen and (min-device-width:320px) and (max-device-width:800px){
+ /* celulares */
+ 
+.cardconteiner{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
 
+}
+ 
 }
